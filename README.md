@@ -23,7 +23,7 @@
 
 - *El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?*
 
-
+    Sí, hubieron conflictos. Esto fue debido a que los cambios realizados en el branch styled y htmlify se superponen en las mismas líneas de código con diferentes resultados. 
 
 - *El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?*
 
