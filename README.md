@@ -18,7 +18,8 @@
 
 - *El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?*
 
-
+    - **Comando**: `git merge main`
+    - **Justificación**: El merge del branch main al branch styled no tuvo ningun efecto ni conflicto debido a que el branch styled se origino desde main y no hubieron cambios en main al momento de hacer el merge.
 
 - *El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?*
 
