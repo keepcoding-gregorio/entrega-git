@@ -27,7 +27,7 @@
 
 - *El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?*
 
-
+    No. El merge no causo conflictos debido a que el branch styled se originó desde main quien no tuvo cambios desde aquel momento. Por lo tanto, los únicos cambios en los archivos que se incorporaran a la rama principal son aquellos que sucedieron en styled.
 
 - *¿Qué comando o comandos utilizaste en el paso 25?*
 
