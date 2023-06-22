@@ -31,7 +31,7 @@
 
 - *¿Qué comando o comandos utilizaste en el paso 25?*
 
-
+    `git log --graph`
 
 - *El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?*
 
