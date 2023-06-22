@@ -60,11 +60,11 @@
 - *¿Qué comando o comandos usaste en el paso 32?*
 
     - **Comandos**: 
-        - `git reflog`                      Busco el id del commit donde se escribió inicialmente el poema de git-nuestro (En mi caso f577cde)
-        - `git checkout <commit-id>`        En mi caso utilice `git checkout f577cde` para colocar el puntero en el commit donde se inició el poema
+        - `git reflog`                      Busco el id del commit donde se escribió inicialmente el poema de git-nuestro (En mi caso 202167b)
+        - `git checkout <commit-id>`        En mi caso utilice `git checkout 202167b` para colocar el puntero en el commit donde se inició el poema
 
 - *¿Qué comando o comandos usaste en el punto 33?*
 
     - **Comandos**: 
-        - `git reflog`                      Busco el id del commit donde se escribió el título del poema de git-nuestro (En mi caso f577cde)
-        - `git checkout <commit-id>`        En mi caso utilice `git checkout f577cde` para colocar el puntero en el commit donde se agregó el título del poema
+        - `git reflog`                      Busco el id del commit del estado final donde se encuentra el título del poema git-nuestro (En mi caso fab0ac4)
+        - `git checkout <commit-id>`        En mi caso utilice `git checkout fab0ac4` para colocar el puntero en el commit en el estado final donde se encuentra el título del poema
