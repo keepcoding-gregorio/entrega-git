@@ -35,28 +35,36 @@
 
 - *El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?*
 
-
+    Sí. Se podría haber hecho un merge fast forward debido a que no hubieron cambios en main al momento de mergear.
 
 - *¿Qué comando o comandos utilizaste en el paso 27?*
 
-
+    `git reset HARD~1` De esta manera regrese el puntero a un commit anterior donde el merge no habia sucedido aún.
 
 - *¿Qué comando o comandos utilizaste en el paso 28?*
 
-
+    `git restore git-nuestro.md` De esta manera descarto los cambios del working copy.
 
 - *¿Qué comando o comandos utilizaste en el paso 29?*
 
-
+    `git branch -D title`
 
 - *¿Qué comando o comandos utilizaste en el paso 30?*
 
-
+    - **Comandos**: 
+        - `git reflog`                      Busco el id del commit donde realice el merge de title a main (En mi caso f577cde)
+        - `git reset --hard <commit-id>`    En mi caso utilice `git reset --hard f577cde` para regresar el merge a main
+    - **Alternativa**: 
+        - Se podría haber utilizado tambien `git merge f577cde` para realizar un merge fast-forward al commit generado en el merge eliminado previamente (f577cde)
 
 - *¿Qué comando o comandos usaste en el paso 32?*
 
-
+    - **Comandos**: 
+        - `git reflog`                      Busco el id del commit donde se escribió inicialmente el poema de git-nuestro (En mi caso f577cde)
+        - `git checkout <commit-id>`        En mi caso utilice `git checkout f577cde` para colocar el puntero en el commit donde se inició el poema
 
 - *¿Qué comando o comandos usaste en el punto 33?*
 
-
+    - **Comandos**: 
+        - `git reflog`                      Busco el id del commit donde se escribió el título del poema de git-nuestro (En mi caso f577cde)
+        - `git checkout <commit-id>`        En mi caso utilice `git checkout f577cde` para colocar el puntero en el commit donde se agregó el título del poema
